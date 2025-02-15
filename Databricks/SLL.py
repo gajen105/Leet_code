@@ -58,3 +58,12 @@ class SLL:
         return SLLIerator(self.start)
 
 
+sll = SLL()
+sll.insert_at_start(2)
+sll.insert_at_start(1)
+sll.insert_at_end(110)
+sll.insert_after(3, 1)
+sll.insert_after(5, 4)
+sll.insert_after(6, 5)
+sll.insert_after(7, 6)
+sll.insert_after(8, 7)
