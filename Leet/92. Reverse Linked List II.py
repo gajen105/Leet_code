@@ -14,7 +14,7 @@ class Solution(object):
         :type head: Optional[ListNode]
         :type left: int
         :type right: int
-        :rtype: Optional[ListNode]
+        :rtype: Optional[ListNode
         """
         ans = ListNode(-1,head)
         left_node = ans
